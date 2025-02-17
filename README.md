@@ -31,7 +31,7 @@ It leverages the Behavior-Driven Development (BDD) approach, enabling easy colla
 
 ## **Key Components**
 ## *1.Pages*
-**BasePage**: Contains reusable Appium driver methods like element interactions, scrolling, and waits.
+**BasePage**: Contains reusable methods like element interactions, scrolling, and waits.
 
 **HomePage**:
 Extend BasePage.
@@ -47,7 +47,7 @@ Designed to encapsulate actions for their respective feature steps.
 **Runner**: Configures the test execution with Cucumber options and JUnit annotations.
 
 ## *4.Utilities*
-**Driver**: Configures and initializes Appium drivers for Android and iOS. Dynamically decides the driver based on properties in config.properties.
+**Driver**: Configures and initializes web drivers. Dynamically decides the driver based on properties in config.properties.
 
 **ConfigLoader**: Reads and provides values from config.properties. Centralizes configuration for device, platform, and other settings.
 
