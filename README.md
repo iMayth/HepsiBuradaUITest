@@ -39,7 +39,7 @@ Contain locators and page-specific methods to interact with app elements.
 Designed to encapsulate actions for their respective feature steps.
 
 ## *2.Step Definitions*
-**Hooks**: Configures actions before and after execution, such as starting/stopping the Appium driver and cleaning up test data.
+**Hooks**: Configures actions before and after execution, such as starting/stopping the driver and cleaning up test data.
 
 **StepDefinitions**: Define Gherkin steps with Java code. Use page classes for implementing test actions.
 
